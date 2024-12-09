@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nina's Pet</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f9f5ff, #ffe6f0);
+            color: #555;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff80ab, #ff4081);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: background 0.3s ease, transform 0.2s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.1);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        main section {
+            margin-bottom: 30px;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            color: #ff4081;
+            margin-bottom: 15px;
+        }
+
+        main p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #ffe6f0;
+            color: #ff4081;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #ff80ab, #ff4081);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Adicionando estilo extra para visual fofo */
+        .paw-icon {
+            font-size: 3rem;
+            color: #ff4081;
+            margin: 15px 0;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Tornando o site responsivo */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                font-size: 12px;
+                padding: 8px 15px;
+            }
+
+            main h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Nina's Pet!</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="login.html">Cadastra-se</a>
+            <a href="pet-register.html">Registrar Pet</a>
+            <a href="service.html">Serviços</a>
+            <a href="service-sceduling.html">Agendamento</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="paw-icon">🐾</div>
+            <h2>Sobre nós</h2>
+            <p>Oferecemos os melhores cuidados para o seu pet, com amor e carinho!</p>
+        </section>
+
+        <section>
+            <h2>Principais serviços</h2>
+            <p>Confira o que temos para o seu amigo peludo:</p>
+            <ul>
+                <li>Banho e Tosa</li>
+                <li>Consulta Veterinária</li>
+                <li>Hospedagem</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nina's Pet - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
